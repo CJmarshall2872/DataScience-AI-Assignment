@@ -1,4 +1,34 @@
 # DataScience-AI-Assignment
 the first assignment for the Data Science class
 
-This is the README for the assignment on Github
+## Model Used ##
+Claude Opus 5.5
+
+## First AI Prompt ##
+Your goal is to recreate a Python notebook following a data analysis of credit card fraud. 
+
+Begin with a data context section that talks about where the data is from, what the different columns of the data are, and an explanation of what those data columns are. Make sure to provide a link to the Kaggle website where the data source was provided: https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud/data
+
+The next section is a little bit of an introductory section. Begin with a big title that says First Day Data Science with Python. The author will be CJ Marshall and put in parentheses Dr. Amish Mishra right beside that. Beneath that put the course which is MAT311 and below that is a date which for the purposes of of this project, we will have November 2nd, 2026. Then create a little bit of an introductory paragraph that talks about how we will explore credit card fraud detection. Explain how we will use this notebook to understand and model data to create valuable insights. 
+
+Now, create a new section of the notebook with the title Load the Data. Now, in this block, you're going to type out code that imports the library's pandas, Seaborn, matplotlib.pyplot, and plotly.express. Next, create a new section of code that loads in the dataset from a file called "card_transdata.csv" and display the first five rows of it. We also want to see the shape of the data and the info of the raw data. We also want to have it described. 
+
+The next section is called Data Wrangling. First, display how many null values are in each column. Then, write a small paragraph about what we can do with null values and data. Then, create another block that cleans the data by dropping the null values and print the  new shape of the dataset and also display the top five rows of the cleaned data. 
+
+The next section is visualizing the data. First, create a count plot with Seaborn to classify how many of the credit card transactions were detected as fraud versus not. Then create another count plot using Seaborn to determine the number of transactions that used a pin number versus not. Next, create a count plot displaying the number of credit card transactions that were repeat retailers or not. The next graph is a Seaborn account plot that describes the number of credit card transactions that were done online versus not. Next we will look at the distribution of the ratio to median purchase price. Use Seaborn to create a histogram using the ratio to median purchase price with 30 bins. All of these graphs should be made using the cleaned dataset after we dropped all of the null values. 
+
+The next section is going to be better visualizations, bivariate visualizations. Begin by creating a count plot of the clean data, but create it with a bivariate analysis of using the pin number or not and whether it was marked as fraudulent or not fraudulent. make the non-fraudulent counts green and the fraudulent counts red. The x-axis is labeled whether they used their pen or not and the red and green will mark whether it was fraudulent or not fraudulent. The next graph will be a percentage plot that takes the same information from the previous plot and stacks the bars on top of each other instead of putting the red and green next to each other. Now we will do the same thing but compare the fraudulent and non-fraudulent transactions on whether the person used a chip or not. So begin by having the fraudulent and non-fraudulance being displayed as red and green bars next to each other and the x-axis is whether they used a chip or not. Then a graph right below that is the percentage plot displaying the same information with the red and green bars stacked on top of each other. The final bivariate plot that we will make for bar charts is the online order for fraudulent and non-fraudulent transactions. Again, put the red and green bars next to each other for one graph with the online order being the x-axis and the green ones being non-fraudulent and the red ones being fraudulent and then another plot where the red and green bars are stacked on top of each other as percentages. 
+
+The final two graphs of this notebook will be scatter plots. The first scatter plot will compare distance from last transaction on the x-axis and a ratio to median purchase price on the y-axis. And it will mark the non fraudulent transactions in green and the fraudulent transactions in red. The final graph of the notebook will be another scatterplot comparing distance from home on the x-axis and ratio to median purchase price on the y-axis. Green dots mark non-fraudulent and red dots mark fraudulent transactions. 
+
+Label all of the graphs according to what they are comparing. Label the axes based on their variables. And provide comments in the code to explain what each of the graphs are doing and the code behind what they are doing.
+
+
+
+## Reflection ##
+I've used AI a lot before this class and the one thing I know is that in order to get the best results, you need to be very thorough and descriptive, hence the very long initial prompt. There were very few changes that needed to be made between versions because I was very descriptive in the initial prompt. I included exactly what the labels were, what colors things should be, and what each graph was comparing. As I experiment with AI more, I notice the results are different behind what I describe and how much I describe. I have found that my best results happen when I am thorough and descriptive and take time to build out a long prompt with examples rather than let AI have "creative freedom." From these experiments, I believe that AI will never be able to replace humanity because there is a special creativity that humans hold that AI cannot replicate. Sure, it can make an idea come to life, but only a human can lead the creative vision behind it.
+
+For the moments that I did have to rework the AI output, I learned that in order to use AI for Data Science, you need to make sure you understand the data yourself and know what to look for. There were moments where I noticed that things didn't line up with the data, but I would not have noticed this unless I understood what the data was supposed to output. As AI is developing more and more, systems are put in place to have it verify its own work, which is exactly what the role of humans should be. Most people just take what AI has to say for fact. We need to understand the data and understand the real world application in Data Science. AI can analyze numbers well, but only a human can make a decision based on what the numbers say.
+
+### Additional Notes ###
+I was unable to upload the dataset to GitHub. GitHub said that the file size was too large. Even the zipped file exceeds the 25mb limit allowed to upload to GitHub. The notebook has a link to the original dataset so if that needs to be downloaded again to run the notebook, that is available
