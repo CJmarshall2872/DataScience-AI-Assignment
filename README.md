@@ -30,5 +30,3 @@ I've used AI a lot before this class and the one thing I know is that in order t
 
 For the moments that I did have to rework the AI output, I learned that in order to use AI for Data Science, you need to make sure you understand the data yourself and know what to look for. There were moments where I noticed that things didn't line up with the data, but I would not have noticed this unless I understood what the data was supposed to output. As AI is developing more and more, systems are put in place to have it verify its own work, but it is up to the humans to verify that the AI checks are actually valid. Most people just take what AI has to say for fact. We need to understand the data and understand the real world application in Data Science. AI can analyze numbers well, but only a human can make a decision based on what the numbers say.
 
-### Additional Notes ###
-I was unable to upload the dataset to GitHub. GitHub said that the file size was too large. Even the zipped file exceeds the 25mb limit allowed to upload to GitHub. The notebook has a link to the original dataset so if that needs to be downloaded again to run the notebook, that is available
